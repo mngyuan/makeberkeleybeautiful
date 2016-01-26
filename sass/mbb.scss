@@ -94,7 +94,7 @@ $tagline-width: 700px;
 .alum {
   position: relative;
   width: 100%;
-  height: 70%;
+  height: 50%;
   @include full-bg('../i/cory.jpg');
   transition: height ease $extraslow,
               background ease $extraslow,
