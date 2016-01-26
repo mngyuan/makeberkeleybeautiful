@@ -64,11 +64,13 @@ body, html {
 .alum {
   position: relative;
   width: 100%;
-  height: 40%;
+  height: 70%;
   background-size: cover;
   background-position: center center;
   background-image: url("../i/cory.jpg");
-  transition: height ease 1.2s, background ease 1.2s; }
+  transition: height ease 1.2s, background ease 1.2s, filter ease 0.3s, -webkit-filter ease 0.3s;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
   .alum.liz {
     background-image: url("../i/liz.png"); }
   .alum.jenn {
@@ -135,12 +137,15 @@ body, html {
         font-weight: bold;
         text-decoration: none;
         font-size: 12px; }
-  .alum:hover .alum-expand .icon {
-    opacity: 0.6; }
-    .alum:hover .alum-expand .icon:hover {
-      opacity: 1; }
-  .alum:hover .alum-quicklook {
-    opacity: 0.9; }
+  .alum:hover {
+    -webkit-filter: none;
+    filter: none; }
+    .alum:hover .alum-expand .icon {
+      opacity: 0.6; }
+      .alum:hover .alum-expand .icon:hover {
+        opacity: 1; }
+    .alum:hover .alum-quicklook {
+      opacity: 0.9; }
   .alum.active {
     height: 100%; }
     .alum.active .alum-quicklook {
