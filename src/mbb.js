@@ -13,7 +13,7 @@ $(document).ready(_ => {
 
   $('.icon.next').click(function(e) {
     $(this).parents('.alum')
-      .css('background-image', "url('/i/cory2.jpg')");
+      .css('background-image', "url('i/cory2.jpg')");
   });
 });
 

@@ -19,7 +19,7 @@ body, html {
     height: 100%;
     background-size: cover;
     background-position: center center;
-    background-image: url("/i/club.jpg"); }
+    background-image: url("../i/club.jpg"); }
   #explanation #explanation-fg {
     position: absolute;
     width: 100%;
@@ -67,12 +67,12 @@ body, html {
   height: 40%;
   background-size: cover;
   background-position: center center;
-  background-image: url("/i/cory.jpg");
+  background-image: url("../i/cory.jpg");
   transition: height ease 1.2s, background ease 1.2s; }
   .alum.liz {
-    background-image: url("/i/liz.png"); }
+    background-image: url("../i/liz.png"); }
   .alum.jenn {
-    background-image: url("/i/jenn.jpg"); }
+    background-image: url("../i/jenn.jpg"); }
   .alum .alum-expand {
     position: absolute;
     bottom: 20px;
