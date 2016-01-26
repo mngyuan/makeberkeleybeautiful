@@ -68,7 +68,7 @@ body, html {
   background-size: cover;
   background-position: center center;
   background-image: url("/i/cory.jpg");
-  transition: height ease 1.2s; }
+  transition: height ease 1.2s, background ease 1.2s; }
   .alum.liz {
     background-image: url("/i/liz.png"); }
   .alum.jenn {
