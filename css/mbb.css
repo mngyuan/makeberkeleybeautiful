@@ -33,7 +33,7 @@ body, html {
       letter-spacing: 10px;
       font-size: 12px;
       margin: 20px 0;
-      font-family: "Avenir Next", "Open Sans", sans-serif; }
+      font-family: "Avenir Next", "Montserrat", "Open Sans", sans-serif; }
     #explanation #explanation-fg .accent {
       width: 85px;
       border-bottom: 6px solid #2a2a2a;
@@ -42,7 +42,7 @@ body, html {
       max-width: 700px;
       font-weight: bold;
       font-size: 68px;
-      font-family: "Avenir Next", "Open Sans", sans-serif;
+      font-family: "Avenir Next", "Montserrat", "Open Sans", sans-serif;
       margin-bottom: 4px; }
     #explanation #explanation-fg #explanation-quote {
       max-width: 700px;
@@ -56,7 +56,7 @@ body, html {
         margin-right: 40px; }
     #explanation #explanation-fg .explanation-note {
       font-size: 12px;
-      font-family: "Avenir Next", "Open Sans", sans-serif;
+      font-family: "Avenir Next", "Montserrat", "Open Sans", sans-serif;
       position: absolute;
       bottom: 10px;
       right: 10px; }
@@ -89,7 +89,7 @@ body, html {
       border-radius: 36px;
       border: 2px solid #fDfCf6;
       color: #fDfCf6;
-      font-family: "Avenir Next", "Open Sans", sans-serif;
+      font-family: "Avenir Next", "Montserrat", "Open Sans", sans-serif;
       opacity: 0;
       transition: opacity ease 0.3s; }
   .alum .alum-quicklook {
@@ -104,7 +104,7 @@ body, html {
   .alum .alum-year {
     margin-left: 6px;
     font-size: 12px;
-    font-family: "Avenir Next", "Open Sans", sans-serif;
+    font-family: "Avenir Next", "Montserrat", "Open Sans", sans-serif;
     font-weight: bold; }
   .alum .alum-blurb {
     position: absolute;
@@ -129,7 +129,7 @@ body, html {
     .alum .alum-blurb .alum-blurb-text {
       margin-bottom: 15px; }
     .alum .alum-blurb .alum-link {
-      font-family: "Avenir Next", "Open Sans", sans-serif;
+      font-family: "Avenir Next", "Montserrat", "Open Sans", sans-serif;
       text-transform: uppercase;
       letter-spacing: 2px; }
       .alum .alum-blurb .alum-link a {
