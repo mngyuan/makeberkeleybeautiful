@@ -42,6 +42,10 @@
       font-size: 68px;
       font-family: $font-big;
       margin-bottom: 4px;
+
+      @media (max-width: 500px) {
+        font-size: 60px;
+      }
     }
 
     #explanation-quote {

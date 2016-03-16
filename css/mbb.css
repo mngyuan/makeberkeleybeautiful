@@ -50,6 +50,9 @@ body, html {
       font-size: 68px;
       font-family: "Avenir Next", "Montserrat", "Open Sans", sans-serif;
       margin-bottom: 4px; }
+      @media (max-width: 500px) {
+        #explanation #explanation-fg .tagline {
+          font-size: 60px; } }
     #explanation #explanation-fg #explanation-quote {
       line-height: 1.75;
       font-style: italic;
