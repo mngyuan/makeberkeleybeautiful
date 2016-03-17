@@ -1,14 +1,18 @@
 @import '_styleguide';
 @import '_defaults';
-@import '_mixins';
+
+@mixin full-bg($url) {
+  background-size: cover;
+  background-position: center center;
+  background-image: url($url);
+}
 
 #explanation {
   width: 100%;
   height: 100vh;
-  text-align: center;
 
   #explanation-bg {
-    @include full-bg('../i/image_0.jpg');
+    @include full-bg("../i/clubold.jpg");
     position: absolute;
     top: 0;
     left: 0;
@@ -30,12 +34,11 @@
   }
 
   #explanation-fg {
-    text-align: center;
-    margin-top: 5%;
+    position: relative;
+    top: 10%;
+    left: 5%;
     padding: 20px 36px;
-    display: inline-block;
-    background: rgba(white, 0.8);
-    width: auto;
+    max-width: 700px;
 
     .tagline {
       font-weight: bold;
