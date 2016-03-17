@@ -22,22 +22,6 @@
 // }
 
 $(document).ready(_ => {
-  $('.icon.plus').click(function(e) {
-    $(this).parents('.alum').toggleClass('active');
-    if ($(this).parents('.alum').hasClass('active')) {
-      $(this).text('-')
-      $('html, body').animate({
-        scrollTop: $(this).parents('.alum').offset().top
-      }, 1200);
-    } else {
-      $(this).text('+');
-    }
-  });
-
-  $('.icon.next').click(function(e) {
-    $(this).parents('.alum')
-      .css('background-image', "url('i/cory2.jpg')");
-  });
 
   // imageTicker(0);
 });

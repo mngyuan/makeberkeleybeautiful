@@ -1,99 +1,93 @@
 <html>
-<head>
-  <title>Make Berkeley Beautiful</title>
-  <link rel='stylesheet' href='css/mbb.css'>
+  <head>
+    <title>Make Berkeley Beautiful</title>
+    <link rel="icon" type="image/png" href="i/black_logo.png">
 
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <!-- libs -->
-  <script src='lib/babel-core-browser.js'></script>
-  <script src='lib/jquery-2.0.3.js'></script>
-</head>
-<body>
-  <div id="explanation">
-    <div id="explanation-bg"></div>
-    <div id="explanation-fg">
-      <div class="accent"></div>
-      <div class="tagline">We've made Berkeley beautiful.</div>
-      <div id="explanation-quote">
-        <div id="quote-text">
-          These people <span class='highlight'>inspire us</span>
-           - they've each changed our lives or taught us in subtle
-          and not so subtle ways - and coincidentally they've all been in InnoD.
-          We hope that they’ll inspire you, too, and change the way you see life.
+    <link rel='stylesheet' href='css/mbb.css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <script src='lib/babel-core-browser.js'></script>
+    <script src='lib/jquery-2.0.3.js'></script>
+  </head>
+  <body>
+    <div id="explanation">
+      <div id="explanation-bg"></div>
+      <div id="explanation-fg">
+        <div class="whereami">Innovative Design</div>
+        <div class="accent"></div>
+        <div class="tagline">Make Berkeley Beautiful</div>
+        <div id="explanation-quote">
+          <div id="quote-text">
+            Check out what Innovative Design has been up to in our desire to make Berkeley beautiful!
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- TODO: template this, with React -->
-  <div class="alum cory">
-    <div class="alum-expand">
-      <div class="icon plus">+</div>
-      <div class="icon next">&gt;</div>
-    </div>
-    <div class="alum-quicklook">
-      <div class="alum-name">Cory<span class="alum-year">2012</span></div>
-    </div>
-    <div class="alum-blurb">
-      <div class="alum-name">Cory<span class="alum-year">2012</span></div>
-      <div class="alum-tiers">in Photo Tier since the beginning of time</div>
-      <div class="alum-blurb-text">
-        Cory is an amazing photographer. I think I speak for many of us when I
-        say that his work uncommonly inspires and motivates. Cory's
-        incredible style in his photographs and his stunning portraits are not
-        to be trifled with - you <i>will</i> fall in love.
+    <div id="tier-container">
+      <div class="tier gold">
+        <div class="tier-quicklook">
+          <div class="tier-name">gold tier</div>
+        </div>
+        <div class="tier-blurb">
+          <div class="tier-name">Cory<span class="tier-year">2012</span></div>
+          <div class="tier-tiers">in Photo Tier since the beginning of time</div>
+          <div class="tier-blurb-text">
+            Cory is an amazing photographer. I think I speak for many of us when I
+            say that his work uncommonly inspires and motivates. Cory's
+            incredible style in his photographs and his stunning portraits are not
+            to be trifled with - you <i>will</i> fall in love.
+          </div>
+          <div class="tier-link">
+            <a href="http://www.corymaryott.com/">corymaryott.com</a>
+          </div>
+        </div>
+        <div class="overlay"></div>
       </div>
-      <div class="alum-link">
-        <a href="http://www.corymaryott.com/">corymaryott.com</a>
+
+      <div class="tier blue">
+        <div class="tier-quicklook">
+          <div class="tier-name">blue tier</div>
+        </div>
+        <div class="tier-blurb">
+          <div class="tier-name">Elizabeth<span class="tier-year">2012</span></div>
+          <div class="tier-tiers">Photo Tier Fall 2011</div>
+          <div class="tier-blurb-text">
+            Cory is an amazing photographer. This is some lorem ipsum that
+            I'm hand writing because I don't have a lorem ipsum tool at hand. Cory's
+            incredible style in his photographs and his stunning portraits are not
+            to be trifled with - you will fall in love. cheesy af
+          </div>
+          <div class="tier-link">
+            <a href="http://www.corymaryott.com/">corymaryott.com</a>
+          </div>
+        </div>
+        <div class="overlay"></div>
       </div>
-    </div>
-  </div>
-  <div class="alum liz">
-    <div class="alum-expand">
-      <div class="icon plus">+</div>
-      <div class="icon next">&gt;</div>
-    </div>
-    <div class="alum-quicklook">
-      <div class="alum-name">Elizabeth<span class="alum-year">2012</span></div>
-    </div>
-    <div class="alum-blurb">
-      <div class="alum-name">Elizabeth<span class="alum-year">2012</span></div>
-      <div class="alum-tiers">Photo Tier Fall 2011</div>
-      <div class="alum-blurb-text">
-        Cory is an amazing photographer. This is some lorem ipsum that
-        I'm hand writing because I don't have a lorem ipsum tool at hand. Cory's
-        incredible style in his photographs and his stunning portraits are not
-        to be trifled with - you will fall in love. cheesy af
-      </div>
-      <div class="alum-link">
-        <a href="http://www.corymaryott.com/">corymaryott.com</a>
-      </div>
-    </div>
-  </div>
-  <div class="alum jenn">
-    <div class="alum-expand">
-      <div class="icon plus">+</div>
-      <div class="icon next">&gt;</div>
-    </div>
-    <div class="alum-quicklook">
-      <div class="alum-name">Jennifer<span class="alum-year">2012</span></div>
-    </div>
-    <div class="alum-blurb">
-      <div class="alum-name">Jennifer<span class="alum-year">2012</span></div>
-      <div class="alum-tiers">Photo Tier Fall 2011</div>
-      <div class="alum-blurb-text">
-        Cory is an amazing photographer. This is some lorem ipsum that
-        I'm hand writing because I don't have a lorem ipsum tool at hand. Cory's
-        incredible style in his photographs and his stunning portraits are not
-        to be trifled with - you will fall in love. cheesy af
-      </div>
-      <div class="alum-link">
-        <a href="http://www.corymaryott.com/">corymaryott.com</a>
+
+      <div class="tier photo">
+        <div class="tier-quicklook">
+          <div class="tier-name">photo tier</div>
+        </div>
+        <div class="tier-blurb">
+          <div class="tier-name">Jennifer<span class="tier-year">2012</span></div>
+          <div class="tier-tiers">Photo Tier Fall 2011</div>
+          <div class="tier-blurb-text">
+            Cory is an amazing photographer. This is some lorem ipsum that
+            I'm hand writing because I don't have a lorem ipsum tool at hand. Cory's
+            incredible style in his photographs and his stunning portraits are not
+            to be trifled with - you will fall in love. cheesy af
+          </div>
+          <div class="tier-link">
+            <a href="http://www.corymaryott.com/">corymaryott.com</a>
+          </div>
+        </div>
+        <div class="overlay"></div>
       </div>
     </div>
-  </div>
-  <script type='text/babel' src='src/modules.js'></script>
-  <script type='text/babel' src='src/mbb.js'></script>
-</body>
+    <script type='text/babel' src='src/modules.js'></script>
+    <script type='text/babel' src='src/mbb.js'></script>
+  </body>
 </html>
