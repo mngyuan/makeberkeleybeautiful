@@ -13,12 +13,6 @@ gulp.task('serve', ['sass'], _ => {
     browserSync.init({
       server: {
         baseDir: "./"
-        // middleware: [
-        //   function (req, res, next) {
-        //     res.setHeader('cache-control', 'max-age=600');
-        //     next();
-        //   }
-        // ]
       }
     });
 

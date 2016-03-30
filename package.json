@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "babel": "^6.3.26",
-    "babel-core": "^5.8.29",
+    "babel-core": "^5.8.38",
     "browser-sync": "^2.9.11",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.2.0"
