@@ -145,7 +145,8 @@ body {
       }
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
       .tier-quicklook {
         opacity: 0;
       }
