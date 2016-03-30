@@ -86,7 +86,7 @@ body {
     margin-bottom: 2%;
     position: relative;
     width: 100%;
-    height: 50%;
+    height: 50vh;
     background-size: cover;
     background-position: center center;
     background-image: url("../i/cory.jpg");
@@ -94,7 +94,7 @@ body {
     #tier-container .tier.blue {
       background-image: url("../i/liz.png"); }
     #tier-container .tier.photo {
-      background-image: url("../i/jenn.jpg"); }
+      background-image: url("../i/photo.png"); }
     #tier-container .tier .overlay {
       position: absolute;
       top: 0;
@@ -116,34 +116,6 @@ body {
       z-index: 2; }
       #tier-container .tier .tier-quicklook .tier-name {
         text-transform: uppercase; }
-    #tier-container .tier .tier-blurb {
-      position: absolute;
-      bottom: 20px;
-      left: 20px;
-      width: 42%;
-      max-width: 400px;
-      padding: 15px 25px;
-      background: rgba(69, 69, 69, 0.4);
-      opacity: 0;
-      transition: opacity ease 1.2s;
-      font-size: 13px;
-      line-height: 1.5;
-      color: #fDfCf6; }
-      #tier-container .tier .tier-blurb .tier-name {
-        font-size: 24px; }
-        #tier-container .tier .tier-blurb .tier-name .tier-year {
-          font-size: 10px; }
-      #tier-container .tier .tier-blurb .tier-blurb-text {
-        margin-bottom: 15px; }
-      #tier-container .tier .tier-blurb .tier-link {
-        font-family: "Avenir Next", "Montserrat", "Open Sans", sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 2px; }
-        #tier-container .tier .tier-blurb .tier-link a {
-          color: inherit;
-          font-weight: bold;
-          text-decoration: none;
-          font-size: 12px; }
     #tier-container .tier:hover .tier-quicklook {
       opacity: 0; }
     #tier-container .tier:hover .overlay {
