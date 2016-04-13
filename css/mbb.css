@@ -14,7 +14,7 @@ body, html {
   margin: 0;
   z-index: 1; }
 
-body {
+body.background {
   background-image: url("../i/wallpaper.png");
   background-attachment: fixed;
   overflow-x: hidden; }
