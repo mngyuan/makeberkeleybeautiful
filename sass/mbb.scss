@@ -93,6 +93,29 @@ body {
       width: 90%;
     }
   }
+
+  #arrow-wrapper {
+    position: absolute;
+    display: block;
+    top: 90%;
+    left: 50%;
+    margin-left: -15px;
+
+    .down-arrow {
+      content: "";
+      display: inline-block;
+      border-style: solid;
+      border-width: 8px 8px 0 0;
+      height: 30px;
+      width: 30px;
+      border-color: $offblack;
+      transform: rotate(135deg);
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
 
 #tier-container {

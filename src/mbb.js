@@ -21,7 +21,16 @@
 //   }, 5000);
 // }
 
+function scrollAnimate(container) {
+    $('html, body').animate({
+      scrollTop: $(container).offset().top
+    }, 'slow');
+  };
+
 $(document).ready(_ => {
+  $('#arrow-wrapper').click(function() {
+    scrollAnimate('#tier-container');
+  });
 
   // imageTicker(0);
 });
