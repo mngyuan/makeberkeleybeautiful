@@ -12,4 +12,6 @@ const stickyHeader = _ => {
 $(document).ready(_ => {
   $(window).scroll(stickyHeader);
   stickyHeader();
+
+  $('.video-wrapper').fitVids();
 });
