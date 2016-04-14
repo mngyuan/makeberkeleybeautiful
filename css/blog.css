@@ -34,7 +34,7 @@ body, html {
       color: #ddd; }
   .post .post-content > :not(.fullbleed),
   .post .post-header > :not(.fullbleed) {
-    padding-left: 20%;
+    padding-left: 10%;
     padding-right: 128px; }
   .post .post-header {
     margin: 24px 0; }
@@ -54,10 +54,22 @@ body, html {
     margin-top: 0;
     font-size: 14px; }
   .post p {
-    max-width: 600px;
+    max-width: 700px;
     margin-top: 24px;
     margin-bottom: 24px;
-    line-height: 24px; }
+    line-height: 24px;
+    padding-left: 0; }
+    .post p a {
+      text-decoration: none;
+      color: #888;
+      transition: color 200ms; }
+      .post p a:hover {
+        color: #ddd; }
+    @media (max-width: 750px) {
+      .post p {
+        max-width: 500px;
+        padding: 0;
+        font-size: 1rem; } }
   .post .img {
     margin-top: 24px;
     margin-bottom: 24px; }
@@ -86,7 +98,7 @@ body, html {
         opacity: 0;
         padding: 25px 0px;
         text-align: center;
-        font-size: 1.25rem;
+        font-size: 1rem;
         background: linear-gradient(rgba(42, 42, 42, 0.8) 20px, rgba(42, 42, 42, 0));
         color: #fDfCf6;
         transition: opacity 0.3s; }
@@ -100,6 +112,9 @@ body, html {
       margin: 0 1% 2% 0; }
       .post .img-grid .grid-layout1-2 .img-container.last {
         margin: 0 0 0 1%; }
+        @media (max-width: 750px) {
+          .post .img-grid .grid-layout1-2 .img-container.last {
+            margin: 0; } }
       .post .img-grid .grid-layout1-2 .img-container img {
         width: 100%; }
       .post .img-grid .grid-layout1-2 .img-container .img-caption {
@@ -113,12 +128,17 @@ body, html {
         opacity: 0;
         padding: 25px 0px;
         text-align: center;
-        font-size: 1.25rem;
+        font-size: 1rem;
         background: linear-gradient(rgba(42, 42, 42, 0.8) 20px, rgba(42, 42, 42, 0));
         color: #fDfCf6;
         transition: opacity 0.3s; }
       .post .img-grid .grid-layout1-2 .img-container:hover .img-caption {
         opacity: 1; }
+      @media (max-width: 750px) {
+        .post .img-grid .grid-layout1-2 .img-container {
+          display: block;
+          width: 100%;
+          margin: 0 0 2% 0; } }
     .post .img-grid .caption {
       white-space: normal; }
   .post .pullquote {
@@ -142,8 +162,9 @@ body, html {
         right: 20px;
         content: "”";
         font-family: serif; }
-  .post.photo-post .post-content > :not(.fullbleed) {
-    padding-left: 128px; }
+  @media (max-width: 750px) {
+    .post.photo-post .post-content > :not(.fullbleed) {
+      padding: 0 64px; } }
   .post.photo-post .post-content p {
     margin-left: auto;
     margin-right: auto; }

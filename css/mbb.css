@@ -112,6 +112,8 @@ body.background {
       background-image: url("../i/liz.png"); }
     #tier-container .tier.photo {
       background-image: url("../i/photo.png"); }
+    #tier-container .tier.marketing {
+      background-image: url("../i/marketing.png"); }
     #tier-container .tier .overlay {
       position: absolute;
       top: 0;
