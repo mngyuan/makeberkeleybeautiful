@@ -134,7 +134,7 @@ body.background {
                 -webkit-filter ease $fast;
 
     &.blue {
-      background-image: url('../i/liz.png');
+      background-image: url('../i/blue.png');
     }
 
     &.photo {
@@ -172,6 +172,7 @@ body.background {
       z-index: 2;
 
       .tier-name {
+        letter-spacing: 10px;
         text-transform: uppercase;
       }
     }

@@ -109,7 +109,7 @@ body.background {
     background-image: url("../i/cory.jpg");
     transition: height ease 1.2s, background ease 1.2s, filter ease 0.3s, -webkit-filter ease 0.3s; }
     #tier-container .tier.blue {
-      background-image: url("../i/liz.png"); }
+      background-image: url("../i/blue.png"); }
     #tier-container .tier.photo {
       background-image: url("../i/photo.png"); }
     #tier-container .tier.marketing {
@@ -136,6 +136,7 @@ body.background {
       font-size: 36px;
       z-index: 2; }
       #tier-container .tier .tier-quicklook .tier-name {
+        letter-spacing: 10px;
         text-transform: uppercase; }
     #tier-container .tier:hover .tier-quicklook, #tier-container .tier:active .tier-quicklook {
       opacity: 0; }
