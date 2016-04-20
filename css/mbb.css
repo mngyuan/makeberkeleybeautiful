@@ -109,13 +109,15 @@ body.background {
     background-image: url("../i/cory.jpg");
     transition: height ease 1.2s, background ease 1.2s, filter ease 0.3s, -webkit-filter ease 0.3s; }
     #tier-container .tier.blue {
-      background-image: url("../i/blue.png"); }
+      background-image: url("../i/blue/CAN.png"); }
     #tier-container .tier.photo {
       background-image: url("../i/photo.png"); }
     #tier-container .tier.marketing {
       background-image: url("../i/marketing.png"); }
     #tier-container .tier.video {
       background-image: url("../i/video.png"); }
+    #tier-container .tier.web {
+      background-image: url("../i/web.png"); }
     #tier-container .tier .overlay {
       position: absolute;
       top: 0;

@@ -134,7 +134,7 @@ body.background {
                 -webkit-filter ease $fast;
 
     &.blue {
-      background-image: url('../i/blue.png');
+      background-image: url('../i/blue/CAN.png');
     }
 
     &.photo {
@@ -147,6 +147,10 @@ body.background {
 
     &.video {
       background-image: url('../i/video.png');
+    }
+
+    &.web {
+      background-image: url('../i/web.png');
     }
 
     .overlay {
