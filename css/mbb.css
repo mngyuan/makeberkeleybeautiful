@@ -118,6 +118,8 @@ body.background {
       background-image: url("../i/video.png"); }
     #tier-container .tier.web {
       background-image: url("../i/web.png"); }
+    #tier-container .tier.gold {
+      background-image: url("../i/gold.png"); }
     #tier-container .tier .overlay {
       position: absolute;
       top: 0;
