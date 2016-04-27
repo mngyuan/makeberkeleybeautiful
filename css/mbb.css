@@ -120,6 +120,8 @@ body.background {
       background-image: url("../i/web.png"); }
     #tier-container .tier.gold {
       background-image: url("../i/gold.png"); }
+    #tier-container .tier.product {
+      background-image: url("../i/product.jpg"); }
     #tier-container .tier .overlay {
       position: absolute;
       top: 0;
