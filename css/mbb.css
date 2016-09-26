@@ -133,7 +133,7 @@ body.background {
       z-index: 1; }
     #tier-container .tier .tier-quicklook {
       position: absolute;
-      top: 50%;
+      top: 45%;
       width: 100%;
       text-align: center;
       opacity: 1;
